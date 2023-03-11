@@ -1,0 +1,264 @@
+body{
+    background-color: whitesmoke;
+    color: rgb(81, 78, 78);
+    font-family: 'Arial';
+}
+header {
+    background-color: rgb(62, 107, 157);
+    padding-left: 200px;
+    display: flex;
+    height: 40px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header .search{
+    margin-left: 150px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+header .search img{
+    position: absolute;
+    opacity: 0.4;
+    left: 5px;
+    widows: 10px;
+    height: 10px;
+}
+header .search input {
+    padding-left: 17px;
+    border-radius: 10px;
+    background-color:rgb(60, 73, 99);
+    height: 20px;
+    font-size: 13px;
+    border: none;
+}
+
+.main{
+    margin: 0 190px;
+    margin-top: 20px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+.main .main_left {
+    /* border: 1px solid red; */
+    width: 150px;
+    padding: 5px;
+}
+.main .main_left ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.main .main_left ul li {
+    margin-bottom: 7px;
+    font-size: 13px;
+    /* border: 1px solid yellow; */
+}
+.main .main_left ul li a{
+    text-decoration: none;
+    color:rgb(60, 73, 99);
+}
+.main .main_left ul li a:hover{
+    color:rgb(57, 122, 155);
+    cursor: pointer;
+}
+
+.main .main_center{
+    width: 200px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.main .main_center .main_center_profile{
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main .main_center .main_center_profile img{
+    margin-top: 10px;
+    width: 180px;
+    height: 160px;
+}
+
+.main .main_center .main_center_profile button{
+    margin: 10px 0;
+    font-size: 13px;
+    width: 180px;
+    cursor: pointer;
+}
+
+.main .main_center .main_center_friends{
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.main .main_center .main_center_friends .main_center_friends_title {
+    font-size: 13px;
+    cursor: pointer;
+} 
+.main .main_center .main_center_friends .main_center_friends_title a{
+    text-decoration: none;
+    color: rgb(81, 78, 78); 
+} 
+.main .main_center .main_center_friends .main_center_friends_title a:hover{
+    color:rgb(57, 122, 155);
+}
+
+.main .main_center .main_center_friends .main_center_friends_closer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.main .main_center .main_center_friends .main_center_friends_closer .main_center_friends_closer_row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+.main .main_center .main_center_friends .main_center_friends_closer .main_center_friends_closer_row div{
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .main_center .main_center_friends .main_center_friends_closer .main_center_friends_closer_row img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.main .main_center .main_center_friends .main_center_friends_closer .main_center_friends_closer_row span{
+    font-size: 10px;
+}
+.main .main_right{
+    width: 450px;
+    /* border: 1px solid red; */
+}
+.main .main_right .main_right_information{
+    background-color: white;
+    padding: 15px 10px 10px;
+    border-radius: 10px;
+}
+
+.main .main_right .main_right_information .main_right_information_upper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .main_right .main_right_information .main_right_information_upper .main_right_information_upper_left .main_right_information_upper_left_fullName{
+    color: black;
+    font-size: 13px;
+}
+.main .main_right .main_right_information .main_right_information_upper .main_right_information_upper_left .main_right_information_upper_left_slogan{
+    margin-top: 5px;
+    font-size: 12px;
+}
+.main .main_right .main_right_information .main_right_information_upper .main_right_information_upper_right{
+    font-size: 12px;
+}
+
+.main .main_right .main_right_information .main_right_information_middle{
+    display: flex;
+    font-size: 11px;
+}
+.main .main_right .main_right_information .main_right_information_middle .main_right_information_middle_left{
+    width: 160px;
+}
+.main .main_right .main_right_information .main_right_information_middle .main_right_information_middle_left div{
+    margin-bottom: 5px;
+}
+.main .main_right .main_right_information .main_right_information_middle .main_right_information_middle_right{
+    width: 250px;
+}
+.main .main_right .main_right_information .main_right_information_middle .main_right_information_middle_right div{
+    margin-bottom: 5px;
+}
+.main .main_right .main_right_information .main_right_information_middle .main_right_information_middle_right:last-child a{
+    text-decoration: none;
+    color:rgb(81, 78, 78);
+    font-size: 8px;
+}
+
+.main .main_right .main_right_information .main_right_information_down{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    justify-content: space-around;
+}
+.main .main_right .main_right_information .main_right_information_down div{
+    text-align: center;
+}
+.main .main_right .main_right_information .main_right_information_down div span{
+    display: block;
+    color: black;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.main .main_right .main_right_photos{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.main .main_right .main_right_photos .main_right_photos_title{
+    font-size: 13px;
+}
+.main .main_right .main_right_photos .main_right_photos_slider{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+} 
+.main .main_right .main_right_photos .main_right_photos_slider img{
+    width: 100px;
+    height: 100px;
+}
+
+.main .main_right .main_right_publication{
+    margin-top: 10px;
+    font-size: 13px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.main .main_right .main_right_publication .main_right_publication_top{
+    display: flex;
+    flex-direction: row;
+} 
+.main .main_right .main_right_publication .main_right_publication_top img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.main .main_right .main_right_publication .main_right_publication_top .main_right_publication_top_info{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+} 
+.main .main_right .main_right_publication .main_right_publication_top .main_right_publication_top_info span:first-child{
+    color: black;
+}
+.main .main_right .main_right_publication .main_right_publication_top .main_right_publication_top_info span:last-child{
+    font-size: 10px;
+}
+.main .main_right .main_right_publication .main_right_publication_context{
+    margin-top: 10px;
+}

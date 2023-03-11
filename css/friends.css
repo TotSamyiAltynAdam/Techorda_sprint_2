@@ -1,0 +1,249 @@
+body{
+    background-color: whitesmoke;
+    color: rgb(81, 78, 78);
+    font-family: 'Arial';
+}
+header {
+    background-color: rgb(62, 107, 157);
+    padding-left: 200px;
+    display: flex;
+    height: 40px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header .search{
+    margin-left: 150px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+header .search img{
+    position: absolute;
+    opacity: 0.4;
+    left: 5px;
+    widows: 10px;
+    height: 10px;
+}
+header .search input {
+    padding-left: 17px;
+    border-radius: 10px;
+    background-color:rgb(60, 73, 99);
+    height: 20px;
+    font-size: 13px;
+    border: none;
+}
+
+.main{
+    margin: 0 190px;
+    margin-top: 20px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+.main .main_left {
+    /* border: 1px solid red; */
+    width: 150px;
+    padding: 5px;
+}
+.main .main_left ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.main .main_left ul li {
+    margin-bottom: 7px;
+    font-size: 13px;
+    margin-bottom: 14px;
+    /* border: 1px solid yellow; */
+}
+.main .main_left ul li a{
+    text-decoration: none;
+    color:rgb(60, 73, 99);
+}
+.main .main_left ul li a:hover{
+    color:rgb(57, 122, 155);
+    cursor: pointer;
+}
+
+.main_center{
+    /* border: 1px solid red; */
+    width: 450px;
+}
+
+.main_center .main_center_top{
+    display: flex;
+    padding: 9px 12px;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 7px 7px 0 0;
+    font-size: 12px;
+    background-color: white;
+}
+.main_center .main_center_top .main_center_top_all{
+    color: black;
+} 
+.main_center .main_center_top .main_center_top_all span{
+    color:rgb(81, 78, 78);
+}
+.main_center .main_center_top .main_center_top_online{
+    margin-left: -90px;
+    color: black;
+}
+.main_center .main_center_top .main_center_top_online span {
+    color:rgb(81, 78, 78);
+}
+.main_center .main_center_top button{
+    background-color:rgb(62, 107, 157);
+    height: 20px;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+    font-size: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.main_center .main_center_search {
+    margin-top: 5px;
+    background-color: white;    
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.main_center .main_center_search img{
+    position: absolute;
+    left: 6px;
+    widows: 10px;
+    height: 10px;
+}
+
+.main_center .main_center_search input{
+    padding-left: 20px;
+    border: none;
+    width: 445px;
+    height: 30px;
+    font-size: 12px;
+}
+.main_center .main_center_bottom{
+    margin-top: 10px;
+}
+.main .main_center .main_center_bottom{
+    display: flex;
+    flex-direction: column;
+}
+.main .main_center .main_center_bottom .main_center_bottom_friends{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    background-color: white;
+}
+.main .main_center .main_center_bottom .main_center_bottom_friends img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.main .main_center .main_center_bottom .main_center_bottom_friends .main_center_bottom_friends_info{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -210px;
+}
+.main .main_center .main_center_bottom .main_center_bottom_friends .main_center_bottom_friends_info span{
+    padding-bottom: 3px;
+}
+.main .main_center .main_center_bottom .main_center_bottom_friends .main_center_bottom_friends_info span:first-child{
+    font-weight: bold;
+}
+.main .main_center .main_center_bottom .main_center_bottom_friends .main_center_bottom_friends_info span:first-child, .main .main_center .main_center_bottom .main_center_bottom_friends .main_center_bottom_friends_info span:last-child{
+    color:rgb(62, 107, 157);
+}
+.main .main_center .main_center_bottom .main_center_bottom_friends a{
+    display: flex;
+    justify-content: space-between;
+    width: 16px;
+    height: 5px;
+}
+.main .main_center .main_center_bottom .main_center_bottom_friends a div{
+    width: 4px;
+    height: 4px;
+    background-color:rgb(57, 122, 155);
+    border-radius: 50%;
+}
+
+.main .main_right{
+    width: 200px;
+    /* border: 1px solid red; */
+}
+.main .main_right .main_right_up{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+}
+.main .main_right .main_right_up a{
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    text-decoration: none;
+    color:rgb(81, 78, 78);
+    height: 30px;
+    font-size: 13px;
+}
+.main .main_right .main_right_up a:hover{
+    color: black;
+    background-color:rgb(197, 225, 234);
+}
+
+.main .main_right .main_right_bottom {
+    margin-top: 10px;
+    background-color: white;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.main .main_right .main_right_bottom span{
+
+}
+.main .main_right .main_right_bottom .main_right_bottom_friends{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+} 
+.main .main_right .main_right_bottom .main_right_bottom_friends .main_right_bottom_friends_info{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.main .main_right .main_right_bottom .main_right_bottom_friends .main_right_bottom_friends_info img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.main .main_right .main_right_bottom .main_right_bottom_friends .main_right_bottom_friends_info .main_right_bottom_friends_info_text{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.main .main_right .main_right_bottom .main_right_bottom_friends .main_right_bottom_friends_info .main_right_bottom_friends_info_text span{
+    margin-bottom: 5px;
+}
+.main .main_right .main_right_bottom .main_right_bottom_friends .main_right_bottom_friends_info .main_right_bottom_friends_info_text span:last-child a{
+    text-decoration: none;
+    color:rgb(81, 78, 78);
+}
